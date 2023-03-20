@@ -1,4 +1,3 @@
-import os
 import sys
 from tech_news.analyzer.ratings import top_5_categories
 from tech_news.analyzer.search_engine import (
@@ -35,7 +34,7 @@ def listar_top_categorias():
 
 def sair():
     print("Encerrando script")
-    os._exit(0)
+    return
 
 
 menu = {
